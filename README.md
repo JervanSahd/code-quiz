@@ -1,7 +1,7 @@
-
 # Web API: Code Quiz
 
-Description: 
+# Description:
+ 
 Timed coding quiz with multiple-choice questions. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code. It will have a clean, polished, and responsive user interface.
 
 # Status:
@@ -21,6 +21,6 @@ Advanced Javascript principles were applied to meet functionality criteria below
 Additional items may be required as the project develops. At this time there are no planned changes but open to scale.
 
 # Mock Up
-<img src>
+<img src="./assets/images/code-quiz.png">
 ---
 © 2022 Steve Snavely Confidential and Proprietary. All Rights Reserved.
