@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+
+  <body>
+    <div class="score"><a href="score.html">View Highscores</a></div>
+
+    <div class="countDown">Time: <span id="time">0</span></div>
+
+    <div class="main">
+      <div id="start-screen" class="start">
+        <h1>Code Quiz </h1>
+        <p>
+          This is a quiz to answer questions on crypto currency. 
+        </p>
+        <button id="start">Start Quiz</button>
+      </div>
+
+      <div id="questions">
+        <h2 id="question-title"></h2>
+        <div id="choices" class="choices"></div>
+      </div>
+
+      <div id="end-screen">
+        <h2>All done!</h2>
+        <p>Your final quiz score is <span id="final-score"></span>.</p>
+        <p>
+          Enter initials: <input type="text" id="initial" />
+          <button id="submit">Submit</button>
+        </p>
+      </div>
+
+      <div id="feedback"></div>
+    </div>
+
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
